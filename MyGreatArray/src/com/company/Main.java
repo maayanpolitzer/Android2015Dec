@@ -18,11 +18,12 @@ public class Main {
         */
         ArrayList<User> usersList = new ArrayList<>();
         User user1 = new User("moshe", 123);
-        usersList.add(user1);
-        usersList.add(new User("maayan", 123));
+        usersList.add(user1);                   //
+        usersList.add(new User("maayan", 123)); //
         System.out.println(usersList);
-
-
+    //    usersList.toArray();
+        usersList.add(0,new User("miko", 1));
+        System.out.println(usersList);
 
         User userToCheck = new User("maayan", 123);
         /*
@@ -40,10 +41,17 @@ public class Main {
             }
         }
 
-
-
         System.out.println(usersList.get(0).getName());
 
+
+        ArrayList<Integer> i = new ArrayList<>();
+        i.add(5);
+        i.add(77);
+        i.size();
+
+
+        MyArrayList myArrayList = new MyArrayList();
+        myArrayList.add(5);
 
 
 
