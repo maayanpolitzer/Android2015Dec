@@ -7,6 +7,7 @@ public class Burger extends Product {
 
     public Burger(){
         setPrice(33);
+        setTimeToPrepare(10 * SECOND);
     }
 
 }

@@ -5,9 +5,8 @@ package com.company.products;
  */
 public class Chips extends Product {
 
-
-
     public Chips(){
         setPrice(27);
+        setTimeToPrepare(5 * SECOND);
     }
 }
