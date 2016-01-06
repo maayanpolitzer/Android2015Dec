@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HashMap.iml" filepath="$PROJECT_DIR$/HashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fruits.iml" filepath="$PROJECT_DIR$/Fruits.iml" />
     </modules>
   </component>
 </project>
